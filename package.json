@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "Project HTTP Server dan DOM",
   "main": "server/index.js",
-  "author": "Fikri Rahmat Nurhidayat <fnurhidayat@binar.co.id>",
+  "author": "Michael Jeffry Setiawan <micjef.my.id>",
   "license": "MIT",
   "private": false,
   "scripts": {
     "start": "nodemon server/index.js"
   },
   "dependencies": {
-    "express": "^4.17.3",
     "http": "^0.0.1-security",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": "https://github.com/micjef/Binar-Fullstack-Web-Chapter4.git"
 }
