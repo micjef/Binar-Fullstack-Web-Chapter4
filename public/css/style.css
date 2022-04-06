@@ -1,0 +1,166 @@
+body {
+  font-family: Helvetica;
+  font-style: normal;
+}
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.25rem;
+}
+section h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 36px;
+}
+.icon-check {
+  background-color: #cfd4ed;
+  border-radius: 50%;
+  color: #0d28a6;
+  padding: 3px;
+}
+.btn-light-green {
+  background-color: #5cb85f;
+  color: #ffffff;
+  border-radius: 2px;
+}
+.navbar {
+  background-color: #f1f3ff;
+}
+.navbar-brand {
+  background-color: #0d28a6;
+  width: 100px;
+  height: 34px;
+}
+.navbar-nav .nav-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.jumbotron {
+  background-color: #f1f3ff;
+  height: 400px;
+}
+.jumbotron h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+.services li {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.why-us .card-body h5 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.testi .rounded-circle{
+  max-width: 80px;
+  max-height: 80px;
+}
+.testi .item {
+  background-color: #f1f3ff;
+  padding: 50px 30px;
+  border-radius: 8px;
+}
+.testi button {
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 6px;
+}
+.testi button.btn-left {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+}
+.testi .star {
+  font-size: 30px;
+  color: #f9cc00;
+}
+.item-jumbo {
+  border-radius: 20px;
+  background-color: #0d28a6;
+  color: #ffffff;
+  height: 326px;
+}
+.getting-started h2 {
+  font-weight: bold;
+  line-height: 150%;
+}
+.faq .accordion button {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+@media screen and (min-width: 1285px) {
+  .img-car {
+    margin-left: 100px;
+    width: 704px;
+    height: 407px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-nav li a {
+    color: black !important;
+    font-size: 14px;
+    margin: 0 10px 0 10px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .offcanvas {
+    visibility: visible;
+    position: relative;
+    background: none;
+    border: none;
+  }
+}
+@media (max-width: 992px) {
+  .offcanvas {
+    width: 50% !important;
+  }
+  .offcanvas-start-lg {
+    top: 0;
+    right: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    transform: translateX(100%);
+  }
+  .offcanvas-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .navbar-nav li a {
+    color: black !important;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+@media screen and (min-width: 767px) {
+  .card {
+    width: 18rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .services img {
+    width: 15rem;
+  }
+  .services {
+    margin-top: 140px;
+  }
+  .testi .owl-carousel .item {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .testi .owl-carousel .item .bintang {
+    text-align: center;
+  }
+  .testi .owl-carousel .item img {
+    width: 5rem;
+    margin: auto;
+  }
+}
