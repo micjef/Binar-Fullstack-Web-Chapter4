@@ -24,7 +24,7 @@ http
                 reqUrl = "/index.html";
                 break;
             case "/sewa":
-                reqUrl = "/sewaMobil.html";
+                reqUrl = "/sewa.html";
                 break;
             default:
                 reqUrl = req.url;
@@ -62,7 +62,7 @@ http
         });
     })
     .listen(8000);
-    
+
 console.log("Server running at http://locahost:8000/");
 
 
